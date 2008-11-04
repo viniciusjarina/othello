@@ -49,7 +49,7 @@ bool OthelloApp::Init()
 	if(!System::SetupScreen(320,320))	// Setup and create screen with defaul size
 		return false;
 	
-	System::SetScreenTitle("Othello");
+	System::SetScreenTitle("Othello (ESC to exit)");
 
 	return true;
 }
