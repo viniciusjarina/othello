@@ -21,6 +21,7 @@ class GameScene: public Scene
 	Troll::Image m_logoImage;
 	Troll::Image m_newGame;
 	Troll::Image m_quitImage;
+	Troll::Image m_board;
 
 	Tabuleiro m_tabuleiro;
 	Tabuleiro * m_temp_tabuleiros;

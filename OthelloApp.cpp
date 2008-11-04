@@ -22,12 +22,12 @@ int OthelloApp::Run()
 
 	while(!quit) // was ESC key pressed?
 	{
-		Screen::StartFrame();
-		
 		MouseInput::Update();
 		KeyInput::Update();
 
 		quit = scene.Logic();
+
+		Screen::StartFrame();
 			
 		if(!Screen::SkipFrame()) // Frame can be rendered
 		{
